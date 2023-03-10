@@ -33,6 +33,11 @@ body
     text-decoration: underline;
 }
 
+#facebookClone
+{
+  padding-bottom: 80px;
+}
+
 #footerBg
 {
    background-color: rgb(172, 141, 235);
@@ -44,10 +49,3 @@ body
    height: 50px;
 }
 
-@media only screen and (max-width:600px) 
-{
-    #facebookClone
-   {
-      padding-bottom: 80px;
-   }     
-}
