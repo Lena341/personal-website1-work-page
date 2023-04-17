@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  overflow: auto;
+}
+
+#myHeader {
+  display: block;
+  background-image: url("forphotoshop1 (2).png");
+  position: relative;
+  width: 100%;
+  height: 35%;
+  z-index: 1;
+}
+
+#headerTitle {
+  color: rgb(0, 0, 0);
+  font-weight: 200;
+}
+
+#previewLink, #codeLink {
+  text-decoration: none;
+  color: black;
+}
+
+#previewLink:hover, #codeLink:hover {
+  text-decoration: underline;
+}
+
+#facebookClone {
+  padding-bottom: 80px;
+}
+
+#footerBg {
+  background-color: rgb(172, 141, 235);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1150px) {
+  #footerBg {
+    margin-bottom: -50px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #footerBg {
+    position: relative;
+    margin-bottom: 0px;
+  }
+}
